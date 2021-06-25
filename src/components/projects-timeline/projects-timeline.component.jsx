@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events,  ImageEvent } from "@merc/react-timeline";
 
 // projects
 import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
@@ -117,18 +117,7 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
+                
                 
               </div>
             </div>
@@ -231,12 +220,6 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
                 
               </div>
             </div>
@@ -327,18 +310,7 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
+                
                 
               </div>
             </div>

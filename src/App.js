@@ -10,7 +10,7 @@ import MyCarousal from "./components/my-carousal/my-carousal.component"
 import TitleMessage from "./components/title-message/title-message.component"
 import About from './pages/about/about.component'
 import Skills from './pages/skills/skills.component'
-import Experience from './pages/experience/experience.component'
+
 import ProjectTimeLine from './components/projects-timeline/projects-timeline.component'
 import Contact from './pages/contact-form/contact-form.component'
 import FooterPanel from './components/footer/footer.component' 
@@ -47,16 +47,7 @@ const App=()=> {
       </Fade>
       </Container>
       </div>
-      {/* experience section*/}
-      <div>
-        <Container className="container-box rounded">
-          <Fade duration={500}>
-            <hr />
-
-            <Experience />
-          </Fade>
-        </Container>
-      </div>
+      
 
       {/* Project Time-line */}
       <div>
